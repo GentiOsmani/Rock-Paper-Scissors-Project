@@ -10,7 +10,7 @@ rps = input("pick the hand you wanna play with: ").lower()
 Random = choice(rps_random)
 
 while Random == "rock":
-    if rps == "scrissors":
+    if rps == "scissors":
         print("the computer has chosen 'ROCK' so you lose! ")
     elif rps == "rock":
         print("The computer has chosen 'ROCK' too so its a tie!! ")
