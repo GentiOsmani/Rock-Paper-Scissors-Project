@@ -64,4 +64,3 @@ if ask1 == "y":
 else:
     print("Thanks for playing!")
     quit()
-    
